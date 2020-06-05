@@ -1,0 +1,13 @@
+.header{
+	display:flex;
+	color:#FFFFFF;
+	background-color: rgb(69,80,177);
+	justify-content: space-between;
+	align-items: center;
+	padding:0 10%;
+	height:10vh;
+}
+.header a{
+	color:#FFFFFF!important;
+	text-decoration: none;
+}

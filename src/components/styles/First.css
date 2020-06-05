@@ -1,0 +1,22 @@
+.first{
+}
+.sites{
+	background-color: rgb(245,245,245);
+	padding:2% 10%;
+}
+.blocks{
+	padding:2% 5%;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px rgba(32, 31, 78, 0.08);
+
+}
+.block{
+	display: flex;
+	align-items: center;
+	padding: 1% 5%;
+}
+.block img{
+	padding-left: 2%;
+	height:100%;
+}

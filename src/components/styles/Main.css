@@ -1,0 +1,16 @@
+.main{
+	height:90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.main h1{
+	font-weight:normal;
+	width:60%;
+	text-align: center;
+}
+.main h4{
+	color:rgb(117,117,117);
+	font-weight:normal;
+}
