@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import './styles/Main.css'
+import './styles/Main.css';
+import KMap from '../assets/map.png';
 
 export default class Main extends Component{
 	constructor(props){
@@ -11,9 +12,11 @@ export default class Main extends Component{
 	}
 
 	render(){
+		const img = <img src={KMap} alt=""/>
 		return(
 			<div className="main">
 				<h1>{this.state.name}</h1>
+				{this.state.name === "Қазақ тіліндегі диалект базасы" && img}
 				<h4>{this.state.desc}</h4>
 			</div>
 		);

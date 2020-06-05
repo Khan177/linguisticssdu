@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Header from './components/Header'
 import First from './components/First';
 import Second from './components/Second';
+import Third from './components/Third';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ ReactDOM.render(
 				<Route exact path='/' component={Home} />
 				<Route path='/first' component={First} />
 				<Route path='/second' component={Second} />
+				<Route path='/third' component={Third}/>
 			</Switch>
 		</div>
 	</BrowserRouter>,
