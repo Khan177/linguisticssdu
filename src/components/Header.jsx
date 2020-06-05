@@ -8,8 +8,8 @@ export default function Header(){
 		<div className="header">
 			<img src={logo} alt="" style={{height:"50%"}}/>
 			<Link to='/'>Басты бет</Link>
-			<Link to='/first'>Первая страница</Link>
-			<Link to='/second'>Вторая страница</Link>
+			<Link to='/first'>Талдауға қажетті бағдарламалар</Link>
+			<Link to='/second'>Жалпы интернет-ресурстар</Link>
 			<Link to='/third'>Третья страница</Link>
 		</div>
 	);
