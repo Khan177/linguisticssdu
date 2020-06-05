@@ -17,7 +17,7 @@ export default class Main extends Component{
 			<div className="main">
 				<h1>{this.state.name}</h1>
 				{this.state.name === "Қазақ тіліндегі диалект базасы" && img}
-				<h4>{this.state.desc}</h4>
+				<h4><i>{this.state.desc}</i></h4>
 			</div>
 		);
 	}

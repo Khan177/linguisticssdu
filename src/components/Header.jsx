@@ -10,7 +10,7 @@ export default function Header(){
 			<Link to='/'>Басты бет</Link>
 			<Link to='/first'>Талдауға қажетті бағдарламалар</Link>
 			<Link to='/second'>Жалпы интернет-ресурстар</Link>
-			<Link to='/third'>Третья страница</Link>
+			<Link to='/third'>Онлайн диалект базасы</Link>
 		</div>
 	);
 }
